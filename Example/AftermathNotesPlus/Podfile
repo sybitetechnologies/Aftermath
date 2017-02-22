@@ -1,0 +1,12 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'AftermathNotesPlus' do
+  pod 'Aftermath', path: '../../'
+  pod 'Malibu'
+  pod 'Tailor'
+  pod 'Fashion'
+  pod 'Cache'
+  pod 'CryptoSwift'
+end
